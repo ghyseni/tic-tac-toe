@@ -4,7 +4,8 @@
   "description": "Am online game.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+     "postinstall": "./node_modules/bower/bin/bower install" 
   },
   "author": "Grese Hyseni",
   "license": "",
