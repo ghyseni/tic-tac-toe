@@ -3,8 +3,8 @@ $(document).ready(function() {
   var player;
   //will hold the player's game id. Used also to determine if game is still opened / socket connected.
   var gameId;
-  // const socket = io.connect('http://tic-tac-toe-realtime.herokuapp.com'),
-  const socket = io.connect('http://localhost:3000');
+  var socket = io.connect('https://cryptic-lowlands-42400.herokuapp.com/');
+  // var socket = io.connect('http://localhost:3000');
 
   class Player {
     constructor(name, type) {
