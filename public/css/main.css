@@ -1,0 +1,26 @@
+.cell {
+  width: 5.625rem;
+  height: 5.625rem;
+  font-size: 3em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gameBoard {
+  display: none;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+#footer{
+  margin-top:4rem;
+  padding:2rem;
+  background: #000;
+  color:#fff;
+}
+#header{
+  padding:2rem;
+  background: #000;
+  color:#fff;
+}

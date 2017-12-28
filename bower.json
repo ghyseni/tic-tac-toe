@@ -1,0 +1,33 @@
+{
+  "name": "tic-tac-toe",
+  "homepage": "",
+  "authors": [],
+  "description": "",
+  "main": [
+    "index.html",
+    "/css/main.css",
+    "/js/main.js"
+  ],
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "node_modules",
+    "bower_components",
+    "composer.json",
+    "documentation"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "resolutions": {
+    "jquery": "~3.2.1"
+  }
+}
